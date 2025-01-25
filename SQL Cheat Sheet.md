@@ -1,0 +1,33 @@
+# SQL Cheat Sheet
+
+## Order of a SQL query execution
+
+Here’s the order in which SQL queries are executed, from top to bottom:
+
+```
+1. FROM            - Data is fetched from the tables (or views).
+2. JOIN            - Joins tables together based on the join conditions. (if applicable)
+3. WHERE           - Filters rows based on conditions (before grouping).
+4. GROUP BY        - Groups rows based on specified columns for aggregation.
+5. HAVING          - Filters groups after aggregation (useful with GROUP BY).
+6. SELECT          - Calculates the results (aggregations, columns, and aliases).
+7. DISTINCT        - Removes duplicate rows (if using SELECT DISTINCT). (if applicable)
+8. ORDER BY        - Sorts the result set (can use aliases here in many DBMS).
+9. LIMIT/OFFSET    - Limits the number of rows returned and/or skips rows.
+```
+
+## Example SQL Query
+
+```
+SELECT column_name
+FROM table_name
+JOIN another_table
+  ON table_name.id = another_table.id
+WHERE column_name = 'value'
+GROUP BY column_name
+HAVING COUNT(*) > 5
+ORDER BY column_name
+LIMIT 10;
+```
+
+---
