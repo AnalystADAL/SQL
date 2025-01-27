@@ -31,3 +31,10 @@ LIMIT 10;
 ```
 
 ---
+
+### 1. SQL Basics
+
+#### Shape of a Database
+- **Table**: Organises data into rows and columns.
+- **Row**: Represents a single record.
+- **Column**: Represents a field in the database.
