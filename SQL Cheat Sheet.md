@@ -38,3 +38,9 @@ LIMIT 10;
 - **Table**: Organises data into rows and columns.
 - **Row**: Represents a single record.
 - **Column**: Represents a field in the database.
+
+Example:
+```sql
+SELECT DISTINCT author, genre
+FROM books;
+```
