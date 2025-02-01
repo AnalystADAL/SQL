@@ -44,3 +44,10 @@ Example:
 SELECT DISTINCT author, genre
 FROM books;
 ```
+
+#### Views
+Virtual tables based on SQL queries:
+```sql
+CREATE VIEW library_authors AS
+SELECT DISTINCT author AS unique_author
+FROM books;
