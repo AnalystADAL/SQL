@@ -51,3 +51,15 @@ Virtual tables based on SQL queries:
 CREATE VIEW library_authors AS
 SELECT DISTINCT author AS unique_author
 FROM books;
+
+SELECT * FROM library_authors;
+```
+
+---
+
+### 2. Intermediate SQL
+
+#### Aggregations
+- **`COUNT`**: Counts rows or specific values.
+- **`SUM`**, **`AVG`**: Sum or average numerical data.
+- **`MIN`**, **`MAX`**: Find minimum or maximum values.
