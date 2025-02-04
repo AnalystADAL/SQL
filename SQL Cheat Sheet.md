@@ -63,3 +63,9 @@ SELECT * FROM library_authors;
 - **`COUNT`**: Counts rows or specific values.
 - **`SUM`**, **`AVG`**: Sum or average numerical data.
 - **`MIN`**, **`MAX`**: Find minimum or maximum values.
+
+Example:
+```sql
+SELECT COUNT(*) AS total_records FROM people;
+SELECT AVG(budget) AS avg_budget FROM films;
+```
