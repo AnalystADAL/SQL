@@ -69,3 +69,8 @@ Example:
 SELECT COUNT(*) AS total_records FROM people;
 SELECT AVG(budget) AS avg_budget FROM films;
 ```
+
+
+#### Filtering Data
+- **`WHERE`**: Filter rows based on conditions.
+- **Operators**: `<`, `>`, `=`, `<>`, `BETWEEN`.
