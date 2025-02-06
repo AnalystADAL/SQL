@@ -74,3 +74,9 @@ SELECT AVG(budget) AS avg_budget FROM films;
 #### Filtering Data
 - **`WHERE`**: Filter rows based on conditions.
 - **Operators**: `<`, `>`, `=`, `<>`, `BETWEEN`.
+
+Example:
+```sql
+SELECT title FROM films
+WHERE release_year BETWEEN 1990 AND 2000;
+```
