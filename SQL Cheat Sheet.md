@@ -80,3 +80,9 @@ Example:
 SELECT title FROM films
 WHERE release_year BETWEEN 1990 AND 2000;
 ```
+
+#### Pattern Matching
+- **`LIKE`**: Match patterns in strings.
+- **Wildcards**:
+  - `%`: Any sequence of characters.
+  - `_`: Any single character.
