@@ -86,3 +86,8 @@ WHERE release_year BETWEEN 1990 AND 2000;
 - **Wildcards**:
   - `%`: Any sequence of characters.
   - `_`: Any single character.
+
+Example:
+```sql
+SELECT name FROM people WHERE name LIKE '_r%';
+```
