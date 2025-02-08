@@ -91,3 +91,10 @@ Example:
 ```sql
 SELECT name FROM people WHERE name LIKE '_r%';
 ```
+
+---
+
+### 3. Advanced SQL
+
+#### Grouping and Ordering
+- **`GROUP BY`**: Group rows by column values.
