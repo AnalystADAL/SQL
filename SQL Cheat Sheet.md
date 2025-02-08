@@ -98,3 +98,4 @@ SELECT name FROM people WHERE name LIKE '_r%';
 
 #### Grouping and Ordering
 - **`GROUP BY`**: Group rows by column values.
+- **`ORDER BY`**: Sort rows in ascending/descending order.
