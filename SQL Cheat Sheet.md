@@ -99,3 +99,12 @@ SELECT name FROM people WHERE name LIKE '_r%';
 #### Grouping and Ordering
 - **`GROUP BY`**: Group rows by column values.
 - **`ORDER BY`**: Sort rows in ascending/descending order.
+
+
+Example:
+```sql
+SELECT release_year, COUNT(*) AS film_count
+FROM films
+GROUP BY release_year
+ORDER BY release_year;
+```
