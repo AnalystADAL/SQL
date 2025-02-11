@@ -111,3 +111,4 @@ ORDER BY release_year;
 
 
 #### Combining Conditions
+- Use **`AND`**, **`OR`**, and **`NOT`** to combine multiple filters.
