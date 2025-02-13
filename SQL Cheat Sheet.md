@@ -112,3 +112,10 @@ ORDER BY release_year;
 
 #### Combining Conditions
 - Use **`AND`**, **`OR`**, and **`NOT`** to combine multiple filters.
+
+Example:
+```sql
+SELECT title FROM films
+WHERE (release_year = 1994 OR release_year = 2000)
+AND language = 'English';
+
