@@ -119,3 +119,10 @@ SELECT title FROM films
 WHERE (release_year = 1994 OR release_year = 2000)
 AND language = 'English';
 ```
+
+#### Aliases and Arithmetic
+Use arithmetic in queries and alias results:
+```sql
+SELECT title, (duration / 60.0) AS duration_hours
+FROM films;
+```
