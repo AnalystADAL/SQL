@@ -126,3 +126,11 @@ Use arithmetic in queries and alias results:
 SELECT title, (duration / 60.0) AS duration_hours
 FROM films;
 ```
+
+---
+
+### 4. SQL Execution Order
+Understanding execution order is critical for writing efficient queries:
+1. **`FROM`**: Fetch data from tables.
+2. **`JOIN`**: Combine data from multiple tables.
+
