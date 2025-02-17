@@ -136,3 +136,7 @@ Understanding execution order is critical for writing efficient queries:
 3. **`WHERE`**: Filter rows before grouping.
 4. **`GROUP BY`**: Group rows for aggregation.
 5. **`HAVING`**: Filter aggregated results.
+6. **`SELECT`**: Choose columns/values to return.
+7. **`DISTINCT`**: Remove duplicates.
+8. **`ORDER BY`**: Sort rows.
+9. **`LIMIT/OFFSET`**: Restrict the number of rows returned.
