@@ -133,4 +133,6 @@ FROM films;
 Understanding execution order is critical for writing efficient queries:
 1. **`FROM`**: Fetch data from tables.
 2. **`JOIN`**: Combine data from multiple tables.
-
+3. **`WHERE`**: Filter rows before grouping.
+4. **`GROUP BY`**: Group rows for aggregation.
+5. **`HAVING`**: Filter aggregated results.
