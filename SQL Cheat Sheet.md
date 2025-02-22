@@ -140,3 +140,12 @@ Understanding execution order is critical for writing efficient queries:
 7. **`DISTINCT`**: Remove duplicates.
 8. **`ORDER BY`**: Sort rows.
 9. **`LIMIT/OFFSET`**: Restrict the number of rows returned.
+
+
+### 5. Practical Examples
+
+#### Find Movies by Decade
+```sql
+SELECT (MAX(release_year) - MIN(release_year)) / 10.0 AS decades
+FROM films;
+```
