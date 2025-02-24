@@ -149,3 +149,7 @@ Understanding execution order is critical for writing efficient queries:
 SELECT (MAX(release_year) - MIN(release_year)) / 10.0 AS decades
 FROM films;
 ```
+
+#### Calculate Revenue
+```sql
+SELECT SUM(gross) AS total_revenue
