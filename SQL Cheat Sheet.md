@@ -153,3 +153,6 @@ FROM films;
 #### Calculate Revenue
 ```sql
 SELECT SUM(gross) AS total_revenue
+FROM films
+WHERE release_year >= 2000;
+```
