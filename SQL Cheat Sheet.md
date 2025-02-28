@@ -156,3 +156,8 @@ SELECT SUM(gross) AS total_revenue
 FROM films
 WHERE release_year >= 2000;
 ```
+
+#### Grouping by Certification
+```sql
+SELECT certification, COUNT(*) AS film_count
+FROM films
