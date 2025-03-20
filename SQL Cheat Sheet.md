@@ -161,3 +161,7 @@ WHERE release_year >= 2000;
 ```sql
 SELECT certification, COUNT(*) AS film_count
 FROM films
+GROUP BY certification
+HAVING COUNT(*) > 10
+ORDER BY film_count DESC;
+```
